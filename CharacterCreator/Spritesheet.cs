@@ -40,7 +40,7 @@ namespace CharacterCreator
 
         public void Load()
         {
-            image = Image.FromFile(@"L:\Advanced Diploma\GitHub\MathLibraryCLR\roguelikeChar_transparent.png");
+            image = Image.FromFile(@"J:\GITREPO\MathLibraryCLR\roguelikeChar_transparent.png");
         }
 
         public override string ToString()

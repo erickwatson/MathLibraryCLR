@@ -21,9 +21,12 @@ namespace CharacterCreator
         public override string ToString()
         {
             return base.ToString() + "\n\tpath; \t" + spritesheet.path +
-            "\n\tile coordinates: \t" + tileCoordinates.ToString();
+            "\n\ttile coordinates: \t" + tileCoordinates.ToString();
 
         }
 
     }
 }
+
+
+
