@@ -11,25 +11,21 @@ namespace CharacterCreator
     {
         private Image image = null;
 
-        public string path;
-        public int GetWidth()
+        private string path;
+        public int Width
         {
-            // add implementation here
-            if (image != null)
+            get
             {
-                return image.Width;
+                return (image != null) ? image.Width : 0;
             }
-            return 0;
         }
 
-        public int GetHeight()
+        public int Height
         {
-            // add implementation here
-            if (image != null)
+            get
             {
-                return image.Height;
+                return (image != null) ? image.Height : 0;
             }
-            return 0;
         }
 
         public Spritesheet(string path)

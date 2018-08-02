@@ -43,7 +43,8 @@ namespace CharacterCreator
                 Console.WriteLine("Enter the y tile index: ");
                 int y = int.Parse(Console.ReadLine());
 
-                character.tileCoordinates = new System.Drawing.Point(x, y);
+                Layer layer = new Layer("base", new System.Drawing.Point(x, y));
+                character.AddLayer(layer);
 
                 characters.Add(character);
                 Console.WriteLine("Make a new character (y/n): ");
